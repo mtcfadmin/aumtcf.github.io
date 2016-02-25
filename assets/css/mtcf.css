@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300|Oswald);
+
+body {
+    padding-top: 75px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.error {
+    color:red;    
+}
+
+.navbar-brand {
+    font-family: "Oswald", 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+}
+
+.navbar-default {
+    border: none;
+    background: #ffffff;
+}
+
+#navbar.active {
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);   
+}
+
+.jumbotron {
+    background: #ffffff;   
+}
+
+.jumbotron h1 {
+    font-weight: 300;
+    color: #555;   
+}
+
+.tagline {
+    padding: 35px 0;
+    background: #eee;    
+}
+
+.tagline h2 {
+    font-weight: 300;
+    color: #333;   
+}
+
+.tagline p {
+    font-size: 21px;
+    font-weight: 200;
+}
+
+.features {
+    padding: 75px 0;    
+}
+
+.contact h2,
+.features h2 {
+    font-weight: 300;
+    color: #333;
+}
+
+.feature {
+    padding-top: 55px;
+}
+
+.feature p {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.feature i {
+    font-size: 78px;
+    color: #4CAF50;
+}
+
+.footer {
+    margin-top:50px;
+    padding: 15px;
+    color: #999;    
+}
+
+@media all and (min-width: 768px) {
+    #navbar {
+        min-height: 75px !important;
+    }
+    .navbar-brand {
+        min-height: 75px !important;
+        padding: 35px 0;
+    }
+    #navbar .navbar-collapse > .navbar-nav > li > a {
+        padding: 35px 15px;
+    }
+    #navbar.active {
+        min-height: 50px !important;
+    }
+    #navbar.active .navbar-brand {
+        min-height: 50px !important;
+        padding: 15px 0;
+        font-size: 22px;
+    }
+    #navbar.active .navbar-collapse > .navbar-nav > li > a {
+        padding: 15px 15px;
+    }
+    .jumbotron {
+        padding: 88px 0 68px 0;
+    }
+    .jumbotron p {
+        padding: 20px 0;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .jumbotron {
+        padding: 45px 0;
+    }
+}
