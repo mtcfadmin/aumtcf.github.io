@@ -15,11 +15,6 @@
 	<!--[if lt IE 9]>
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
     <![endif]-->
-	<script type="text/javascript">
-	$(document).ready(function () {
-	    $(document).snowfall({flakeCount : 800, maxSpeed : 5, maxSize : 5});
-	});
-	</script>
 </head>
 
 <body>
@@ -179,7 +174,11 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/JQuery-Snowfall/1.7.4/snowfall.jquery.min.js"></script>
     <!--script type="text/javascript" src="assets/js/mtcf.js"></script-->
-    
+    <script type="text/javascript">
+	$(document).ready(function () {
+	    $(document).snowfall({flakeCount : 800, maxSpeed : 5, maxSize : 5});
+	});
+	</script>
 </body>
 
 </html>
